@@ -1,0 +1,11 @@
+# THEME
+oh-my-posh init pwsh --config C:\Users\KIIT\AppData\Local\Programs\oh-my-posh\themes\clean-detailed.omp.json | Invoke-Expression
+#oh-my-posh init pwsh | Invoke-Expression
+Import-Module -Name Terminal-Icons
+
+# AUTOCOMPLETE
+Import-Module PSReadLine
+
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadLineOption -EditMode Windows
